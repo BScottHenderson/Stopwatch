@@ -104,4 +104,8 @@ function stopwatchReset (event) {
 
   stopwatchTime.innerHTML = "0";
   lapList.innerHTML       = "";
+
+  startButton.disabled = false;
+  stopButton.disabled  = true;
+  lapButton.disabled   = true;
 }
